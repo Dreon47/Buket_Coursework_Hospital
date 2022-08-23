@@ -1,0 +1,202 @@
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.688, 291557963412, datacollector.dll, Version: 16.11.0
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.694, 291557987028, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,59642,--parentprocessid,9764,--diag,P:\Hospital\Hospital.Tests\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-08-02_18-51-56_50952_4.log,--tracelevel,4
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.694, 291557988186, datacollector.dll, DataCollector: Monitoring parent process with id: '9764'
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.700, 291558046215, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:59642 
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.724, 291558285073, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:56.730, 291558353519, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:56.730, 291558354488, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.786, 291558905776, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.788, 291558932767, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>P:\\Hospital\\Hospital.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\5.0.408\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.408\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>P:\\Hospital\\Hospital.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "P:\\Hospital\\Hospital.Tests\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\Hospital.Tests.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.816, 291559205873, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.816, 291559213253, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\5.0.408\Extensions'.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.816, 291559213657, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.821, 291559258284, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.821, 291559260437, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.821, 291559260907, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.821, 291559261206, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.822, 291559266700, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\5.0.408\Extensions,C:\Program Files\dotnet\sdk\5.0.408
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559276901, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559278595, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559278860, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559279040, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559279389, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559280126, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.408\Extensions,C:\Program Files\dotnet\sdk\5.0.408
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559280530, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.408\Extensions,C:\Program Files\dotnet\sdk\5.0.408
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.823, 291559284184, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.824, 291559284626, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\5.0.408\Extensions'.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.824, 291559288801, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.824, 291559292712, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 23392, 1, 2022/08/02, 18:51:56.825, 291559300413, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.826, 291559310397, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.826, 291559311639, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\5.0.408\Extensions'.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.827, 291559315427, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.827, 291559318333, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559329432, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559332241, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.408\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559332602, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559332801, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559332966, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559333126, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:56.828, 291559333284, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.829, 291559340882, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 23392, 1, 2022/08/02, 18:51:56.829, 291559344028, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.834, 291559387243, datacollector.dll, Listening on Endpoint : 127.0.0.1:59644
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.839, 291559439794, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:56.894, 291559989507, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 27100
+}
+TpTrace Information: 0 : 23392, 5, 2022/08/02, 18:51:57.197, 291563017698, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 23392, 5, 2022/08/02, 18:51:57.197, 291563018512, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.806, 291579108316, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.817, 291579219451, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.819, 291579236111, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleCommandTests.UpdateAsync_ShouldBeExpected - 6a7dc342-3c1d-22cf-052b-14cd636f68de' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.820, 291579251016, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.820, 291579253833, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.821, 291579254838, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RoleTests.UserRoleQueryTests.GetAll_ShouldBeExpected - c8fc07f7-4b1a-84ed-c4b2-0ed04ed1a65c' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.821, 291579260767, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.821, 291579262825, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.821, 291579263825, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordCommandTests.UpdateBookedTimeAsync_ShouldBeExpected - aa664329-01b0-8c77-2c08-f10d60fbf99f' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.823, 291579277798, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.823, 291579279561, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.824, 291579285840, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorQueryTests.GetDoctorByIdAsync_ShouldBeExpected - 5e037ed8-b69b-867b-e132-b612fa4a57a5' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.824, 291579291875, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.825, 291579296957, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.825, 291579299109, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorCommandTests.DeleteAsync_ShouldBeExpected - c1112f57-1739-67ea-10bd-9e391fd4a7af' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.826, 291579304984, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.826, 291579308767, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.826, 291579310765, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.UsersTests.UserAccountQueryTests.GetAll_ShouldBeExpected - bee96248-de4f-6e2f-8165-07caaa2b318a' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.827, 291579317972, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.827, 291579320471, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.827, 291579321303, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByDoctorId_ShouldThrowsArgumentException - a335e5fc-134f-b852-4179-a6922afe9af7' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.828, 291579326243, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.828, 291579328193, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.828, 291579329004, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RoleTests.UserRoleCommandTests.AddUserRoleAsync_ShouldBeExpected - 68a3a4c5-ccff-3b98-2c6c-cdae68579a22' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.828, 291579333189, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.829, 291579335028, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.829, 291579336427, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleQueryTests.GetAll_ShouldBeExpected - a0ed7979-05e9-0eaa-9d8f-b9afdbf0a836' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.834, 291579387632, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.837, 291579424509, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:58.841, 291579462379, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RoleTests.UserRoleQueryTests.GetAll_ShouldBeExpected - c8fc07f7-4b1a-84ed-c4b2-0ed04ed1a65c' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.154, 291582588206, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.154, 291582592178, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.155, 291582594822, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByDoctorId_ShouldThrowsArgumentException - a335e5fc-134f-b852-4179-a6922afe9af7' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.156, 291582608114, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.156, 291582610979, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.156, 291582612503, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByUserId_ShouldThrowsArgumentException - e6405cbd-6435-607d-07e4-3368a46847cd' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.160, 291582648474, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.160, 291582651301, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.160, 291582652738, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByUserId_ShouldThrowsArgumentException - e6405cbd-6435-607d-07e4-3368a46847cd' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.161, 291582659978, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.161, 291582662211, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.161, 291582663534, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByUserId_ShouldBeExpected - a1aa4774-8643-7ca6-65f9-3ff2a1454084' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.198, 291583026611, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.198, 291583030532, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.198, 291583033405, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RoleTests.UserRoleCommandTests.AddUserRoleAsync_ShouldBeExpected - 68a3a4c5-ccff-3b98-2c6c-cdae68579a22' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.199, 291583042039, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.200, 291583045644, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.200, 291583048078, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RoleTests.UserRoleCommandTests.RemoveUserRoleAsync_ShouldBeExpected - c97b2bc6-96fd-12ab-ea5b-a1edc45900a4' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.201, 291583058753, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.201, 291583061968, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.201, 291583064383, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleQueryTests.GetAll_ShouldBeExpected - a0ed7979-05e9-0eaa-9d8f-b9afdbf0a836' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.203, 291583075281, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.203, 291583081051, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.203, 291583084531, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleQueryTests.GetByDoctorId_ShouldBeExpected - 01eadff2-e4b9-719f-8480-19c11886192d' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.204, 291583093290, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.205, 291583097525, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.205, 291583100892, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleCommandTests.UpdateAsync_ShouldBeExpected - 6a7dc342-3c1d-22cf-052b-14cd636f68de' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.206, 291583111391, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.207, 291583114652, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.207, 291583117199, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleCommandTests.DeleteAsync_ShouldBeExpected - 0dcc4fbb-d9ea-de47-670a-e89172499315' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.208, 291583125900, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.208, 291583128760, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.208, 291583130439, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.UsersTests.UserAccountQueryTests.GetAll_ShouldBeExpected - bee96248-de4f-6e2f-8165-07caaa2b318a' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.217, 291583224053, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.218, 291583226551, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.218, 291583228245, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByUserId_ShouldBeExpected - a1aa4774-8643-7ca6-65f9-3ff2a1454084' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.219, 291583236247, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.219, 291583238631, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.219, 291583240065, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetAll_ShouldBeExpected - 9ec249ed-a154-7422-1f8a-8d9eeb201eec' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.225, 291583298467, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.225, 291583301056, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.225, 291583302919, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RoleTests.UserRoleCommandTests.RemoveUserRoleAsync_ShouldBeExpected - c97b2bc6-96fd-12ab-ea5b-a1edc45900a4' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.249, 291583541296, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.249, 291583544387, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.250, 291583546752, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorCommandTests.DeleteAsync_ShouldBeExpected - c1112f57-1739-67ea-10bd-9e391fd4a7af' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.253, 291583578333, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.253, 291583580939, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.253, 291583582593, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorCommandTests.CreateAsync_ShouldBeExpected - baea9b42-9ac9-2751-e3ab-72fe9a7e6796' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.254, 291583589387, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.254, 291583591780, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.254, 291583593612, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleQueryTests.GetByDoctorId_ShouldBeExpected - 01eadff2-e4b9-719f-8480-19c11886192d' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.255, 291583601028, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.255, 291583603124, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.256, 291583604866, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorQueryTests.GetDoctorByIdAsync_ShouldBeExpected - 5e037ed8-b69b-867b-e132-b612fa4a57a5' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.256, 291583613420, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.257, 291583615443, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.257, 291583616781, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorQueryTests.GetDoctors_ShouldBeExpected - 7c6fa4ae-895c-b81d-5e6f-6ffb720a2bc8' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.257, 291583624065, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.258, 291583626793, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.258, 291583628721, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetAll_ShouldBeExpected - 9ec249ed-a154-7422-1f8a-8d9eeb201eec' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.259, 291583636904, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.259, 291583638989, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.259, 291583640318, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByDoctorId_ShouldBeExpected - 3c46eb34-a92a-94d6-a086-705443d9ed1b' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.260, 291583648018, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.260, 291583650628, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.260, 291583653017, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleCommandTests.DeleteAsync_ShouldBeExpected - 0dcc4fbb-d9ea-de47-670a-e89172499315' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.262, 291583674357, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.263, 291583677500, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.263, 291583679607, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleCommandTests.CreateAsync_ShouldBeExpected - f1237a9a-2869-1bb9-5a3a-e05e5dd7c819' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.272, 291583774005, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.273, 291583777771, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.273, 291583780258, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordCommandTests.UpdateBookedTimeAsync_ShouldBeExpected - aa664329-01b0-8c77-2c08-f10d60fbf99f' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.274, 291583790392, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.274, 291583793557, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.275, 291583796057, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordCommandTests.CreateAsync_ShouldBeExpected - 6df6b781-d676-45db-6576-58181b1a9d47' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.296, 291584006861, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.296, 291584011619, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.296, 291584014391, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordQueryTests.GetByDoctorId_ShouldBeExpected - 3c46eb34-a92a-94d6-a086-705443d9ed1b' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.299, 291584038846, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.299, 291584041576, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.299, 291584043199, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorCommandTests.CreateAsync_ShouldBeExpected - baea9b42-9ac9-2751-e3ab-72fe9a7e6796' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.304, 291584093511, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.305, 291584096867, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.305, 291584098392, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorCommandTests.UpdateProfessionAsync_ShouldBeExpected - 340b6751-dc03-5566-b4f3-d860c4723c92' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.306, 291584106577, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.306, 291584109384, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.306, 291584111007, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.SchedulesTests.ScheduleCommandTests.CreateAsync_ShouldBeExpected - f1237a9a-2869-1bb9-5a3a-e05e5dd7c819' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.326, 291584308688, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.326, 291584311896, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.326, 291584313917, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorQueryTests.GetDoctors_ShouldBeExpected - 7c6fa4ae-895c-b81d-5e6f-6ffb720a2bc8' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.334, 291584388907, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.334, 291584392155, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.334, 291584394551, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordCommandTests.CreateAsync_ShouldBeExpected - 6df6b781-d676-45db-6576-58181b1a9d47' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.336, 291584406903, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.336, 291584409445, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.336, 291584410590, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordCommandTests.DeleteAsync_ShouldBeExpected - eb1973f8-fff5-d045-623a-e3fff769f457' started.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.362, 291584666720, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.362, 291584668975, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.362, 291584670417, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.DoctorsTests.DoctorCommandTests.UpdateProfessionAsync_ShouldBeExpected - 340b6751-dc03-5566-b4f3-d860c4723c92' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.363, 291584678325, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.363, 291584680301, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.363, 291584681249, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Hospital.Tests.RecordsTests.RecordCommandTests.DeleteAsync_ShouldBeExpected - eb1973f8-fff5-d045-623a-e3fff769f457' completed
+TpTrace Information: 0 : 23392, 7, 2022/08/02, 18:51:59.370, 291584753167, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.420, 291585248110, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.421, 291585256079, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.421, 291585256972, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.421, 291585258116, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:59.421, 291585258454, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 23392, 1, 2022/08/02, 18:51:59.421, 291585259565, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.421, 291585260154, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.424, 291585291535, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.424, 291585294151, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.424, 291585294439, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 23392, 1, 2022/08/02, 18:51:59.425, 291585294658, datacollector.dll, Program.Main: exiting datacollector process.
